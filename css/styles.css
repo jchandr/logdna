@@ -170,3 +170,8 @@ body {
           height: auto;
           font-size: 18px;
           border-style: none; }
+        .main .post .post-message-input .message-input input:focus,
+        .main .post .post-message-input .message-input select:focus,
+        .main .post .post-message-input .message-input textarea:focus,
+        .main .post .post-message-input .message-input button:focus {
+          outline: none; }

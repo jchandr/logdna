@@ -204,6 +204,12 @@ body {
           font-size: 18px;
           border-style: none;
         }
+        input:focus,
+        select:focus,
+        textarea:focus,
+        button:focus {
+          outline: none;
+        }
       }
     }
   }
